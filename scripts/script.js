@@ -8,14 +8,14 @@ var sideBar=document.querySelector('.side-bar');
 var navtoggle=document.querySelector('.navbar-toggler');
 var nav=document.querySelector('#navbarSupportedContent');
 
-// btnDangKy.addEventListener('click',function(){
-//     form.classList.add('hide-form');   
-// })
+btnDangKy.addEventListener('click',function(){
+    form.classList.add('hide-form');   
+})
 
-// closeForm.addEventListener('click',function(){
-//     form.classList.remove('hide-form');   
+closeForm.addEventListener('click',function(){
+    form.classList.remove('hide-form');   
     
-// })
+})
 
 window.addEventListener('scroll',function(e){
     
@@ -25,10 +25,10 @@ window.addEventListener('scroll',function(e){
         sideBar.style.top='390px';
 })
 
-// navtoggle.addEventListener('click',function(){
-//     nav.classList.toggle('show')
-//     sideBar.classList.toggle('side-ipad-toggle')
-// })
+navtoggle.addEventListener('click',function(){
+    nav.classList.toggle('show')
+    sideBar.classList.toggle('side-ipad-toggle')
+})
 var fullname=document.getElementById('fullname');
 var email=document.getElementById('email');
 var password=document.getElementById('password');
