@@ -124,9 +124,9 @@ form.addEventListener('submit',function(e){
   
 
 })
-//validateName(fullname);
-//validateEmail(email);
-//validatePassword(password);
+validateName(fullname);
+validateEmail(email);
+validatePassword(password);
 
 
 
